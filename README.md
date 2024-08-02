@@ -9,4 +9,9 @@
 sphinx-quickstart <ディレクトリ名>
 ```
 
-1. 
+1. markdownでも記述できるようにconf.pyのextensionに以下を入れる
+
+```
+extensions = ['myst_parser']
+```
+
