@@ -1,19 +1,13 @@
-.. sphinx_sample documentation master file, created by
-   sphinx-quickstart on Fri Aug  2 18:52:46 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-sphinx_sample documentation
-===========================
-
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+=======================
+目次
+=======================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-test
+   ./specification/interface.rst
+   ./specification/er_diagram.rst
+   ./specification/permissions_spec.rst
+   ./specification/table_spec.rst
 
