@@ -3,6 +3,15 @@
 
 ## sphinx ドキュメント作成方法
 
+### インストールモジュール
+
+```bash
+pip install sphinx
+pip install sphinx-rtd-theme
+```
+
+### 作成手順
+
 1.以下コマンドを実行
 
 ```bash
@@ -14,7 +23,8 @@ sphinx-quickstart <ディレクトリ名>
 ```python
 extensions = ['myst_parser']
 ```
-## sphinx autobuildコマンド
+
+### sphinx autobuildコマンド
 
 ```bash
 sphinx-autobuild source build --open-browser --port=8888
