@@ -1,0 +1,2 @@
+# specification_doc_sample
+プレーンテキストによるドキュメント作成テンプレートサンプルお試し用
