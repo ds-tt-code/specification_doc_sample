@@ -1,0 +1,26 @@
+models:
+  - name: users
+    description: "ユーザ用データ"
+    columns:
+      - name: id
+        type: integer
+        description: "The unique identifier for a user"
+      - name: name
+        type: string
+        description: "ユーザ名です"
+      - name: email
+        type: string
+        description: "ユーザのemailアドレス"
+  - name: orders
+    description: "A table containing order data"
+    columns:
+      - name: order_id
+        type: integer
+        description: "The unique identifier for an order"
+      - name: user_id
+        type: integer
+        description: "The ID of the user who placed the order"
+      - name: amount
+        type: float
+        description: "The amount of the order"
+
