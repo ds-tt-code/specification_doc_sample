@@ -8,6 +8,6 @@
 
    ./specification/interface.rst
    ./specification/er_diagram.rst
-   ./specification/permissions_spec.rst
+   ./specification/permissions_spec/permissions_spec.rst
    ./specification/table_spec.rst
 

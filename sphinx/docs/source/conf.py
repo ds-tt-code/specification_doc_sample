@@ -20,7 +20,8 @@ release = '1.0.0'
 
 extensions = [
       'myst_parser', 
-      'dbt_yaml_directive'
+      'dbt_yaml_directive',
+      'sphinxcontrib.mermaid'
 ]
 
 templates_path = ['_templates']

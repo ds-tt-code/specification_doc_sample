@@ -8,6 +8,7 @@
 ```bash
 pip install sphinx
 pip install sphinx-rtd-theme
+pip install sphinxcontrib-mermaid
 ```
 
 ### 作成手順
